@@ -2,8 +2,7 @@
 Convierte grados Celsius a Fahrenheitcel
 
 """
-Celsius: float = float(input("Ingresa la temperatura: "))
+celsius: float = float(input("Ingresa la temperatura en Celsius: "))
+fahrenheit: float = (celsius * 9/5) + 32
 
-Fahrenheit: float = round((Celsius * 9/5) + 32)
-
-print(f"La temperatura en grado fahrenheit es: {Fahrenheit}")
+print(f"{celsius} °C equivalen a {fahrenheit:.2f} °F")
